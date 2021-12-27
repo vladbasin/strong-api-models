@@ -17,7 +17,9 @@
     "scripts": {
         "prepublishOnly": "rm -r -f dist && yarn run generateIndex && tsc",
         "generateIndex": "barrelsby -c barrelsby.json --delete -l all",
-        "publish:public": "yarn publish --access public"
+        "publish:public": "yarn publish --access public",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.8.0",
