@@ -3,4 +3,5 @@ export enum CommonErrorCodes {
     unauthorized = 'Unauthorized',
     notFound = 'NotFound',
     validationFailed = 'ValidationFailed',
+    forbidden = 'Forbidden',
 }

@@ -7,6 +7,7 @@ class CodedErrorToHttpStatusMap {
         [CommonErrorCodes.validationFailed]: HttpStatusCodes.BadRequest,
         [CommonErrorCodes.unknown]: HttpStatusCodes.InternalServerError,
         [CommonErrorCodes.unauthorized]: HttpStatusCodes.Unauthorized,
+        [CommonErrorCodes.forbidden]: HttpStatusCodes.Forbidden,
     };
 
     public extend(newItems: Record<string, number>) {
