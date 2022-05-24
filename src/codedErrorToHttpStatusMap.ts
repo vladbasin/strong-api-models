@@ -8,6 +8,7 @@ class CodedErrorToHttpStatusMap {
         [CommonErrorCodes.unknown]: HttpStatusCodes.InternalServerError,
         [CommonErrorCodes.unauthorized]: HttpStatusCodes.Unauthorized,
         [CommonErrorCodes.forbidden]: HttpStatusCodes.Forbidden,
+        [CommonErrorCodes.conflict]: HttpStatusCodes.Conflict,
     };
 
     public extend(newItems: Record<string, number>) {

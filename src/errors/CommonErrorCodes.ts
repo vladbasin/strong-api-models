@@ -4,4 +4,5 @@ export enum CommonErrorCodes {
     notFound = 'NotFound',
     validationFailed = 'ValidationFailed',
     forbidden = 'Forbidden',
+    conflict = 'Conflict',
 }
