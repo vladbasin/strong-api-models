@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/strong-api-models",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Common models for Strong API framework",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
